@@ -1,65 +1,52 @@
-# htmlsnippets README
+# README
+## Visual Studio Code HTML Snippets
+ 
+This extension adds some HTML snippets to the VS Code:
 
-This is the README for your extension "htmlsnippets". After writing up a brief description, we recommend including the following sections.
+- Snippets
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Update 1
+- Added base of the plugin
+- Added first snippet
 
-For example if there is an image subfolder under your extension project workspace:
+### Todo
+- [on-going]Import more HTML snippets.
 
-\!\[feature X\]\(images/feature-x.png\)
+# Using
+Type part of a snippet, press enter, and the snippet unfolds.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Snippets named as the tag without braces 
 
-## Requirements
+```
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+    !html --> Creates a Basic HTML Snippet
 
-## Extension Settings
+```
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+# Installation
 
-For example:
+1. Install Visual Studio Code 0.10.1 or higher
+2. Launch Code
+3. From the command palette `Ctrl-Shift-P` (Windows, Linux) or `Cmd-Shift-P` (OSX)
+4. Select Install Extension
+5. Type `htmlsnippets`
+6. Choose the extension
+7. Reload Visual Studio Code
 
-This extension contributes the following settings:
+# FAQ
+## How can I report an issue?
+The easiest way is to start a git issue, I will attempt to answer ASAP else I hope someone else will answer.
+ 
+# Contact
+If you find a problem or have a suggestion, drop me a message on Discord: `.jannik#6908`
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+>**I am unable to respond to comments on the store page, please use appropriate channels github/discord to reach me. Thank you**
 
-## Known Issues
+## License
+MIT License, refer to license file.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+# Source
+[Github](https://github.com/30jannik06/htmlsnippets)
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+** Enjoy!**
