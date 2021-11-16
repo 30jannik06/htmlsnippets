@@ -3,8 +3,8 @@
     "displayName": "htmlSnippets",
     "description": "Simple Html Snipped Generator",
     "version": "0.0.0",
-    "publisher": ".jannik",
-    "icon": "icon.png",
+    "publisher": "jannik",
+    "icon": "images/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/30jannik06/htmlsnippets"
@@ -28,7 +28,7 @@
             {
                 "language": "javascriptreact",
                 "path": "./snippets/snippets.code-snippets"
-            }                        
+            }
         ]
     }
 }
