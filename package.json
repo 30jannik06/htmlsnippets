@@ -1,0 +1,30 @@
+{
+    "name": "htmlsnippets",
+    "displayName": "htmlSnippets",
+    "description": "Simple Html Snipped Generator",
+    "version": "0.0.0",
+    "publisher": ".jannik",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }                        
+        ]
+    }
+}

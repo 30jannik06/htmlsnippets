@@ -1,0 +1,39 @@
+{
+    "Html Starter Template": {
+        "prefix": "!html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "$0",
+            "<head>",
+            "<meta charset=\"utf-8\">",
+            "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">",
+            "$0",
+            "    <!-- CSS -->",
+            "<link rel=\"stylesheet\" href=\"style.css\">",
+            "    <link rel=\"stylesheet\" href=\"https: //pro.fontawesome.com/releases/v5.8.2/css/all.css\">",
+            "$0",
+            "    <title>${1:Title}</title>",
+            "</head>",
+            "$0",
+            "<body>",
+            "$0",
+            "    <div class=\"container\"></div>",
+            "$0",
+            "    <script src=\"./index.js\"></script>",
+            "    <script src=\"https: //kit.fontawesome.com/bbb45cb41a.js\" crossorigin=\"anonymous\"></script>",
+            "    <script src=\"https: //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>",
+            "</body>",
+            "$0",
+            "<script>",
+            "$0",
+            "</script>",
+            "$0",
+            "</html>"
+        ],
+        "description": "Creates a Standart Html Template"
+    }
+}
+
+#https: //www.youtube.com/watch?v=srwsnNhiqv8
