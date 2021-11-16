@@ -2,7 +2,11 @@
 
 All notable changes to the "htmlsnippets" extension will be documented in this file.
 
-## [1.0.2]
+## [1.0.4]
+
+- Added first php Snippets
+
+## [1.0.3]
 
 - Updated snippet Layout
 

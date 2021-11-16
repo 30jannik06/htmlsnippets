@@ -5,6 +5,9 @@ This extension adds some HTML snippets to the VS Code:
 
 - Snippets
 
+### Update 5
+- Added first php Snippets
+
 ### Update 4
 - Updated snippet Layout
 
