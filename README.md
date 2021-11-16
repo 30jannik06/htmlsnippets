@@ -5,10 +5,18 @@ This extension adds some HTML snippets to the VS Code:
 
 - Snippets
 
+### Update 4
+- Updated snippet Layout
+
+### Update 3
+- Added MIT License
+- Updated README.md
+
+### Update 2
+- Added first snippets
 
 ### Update 1
 - Added base of the plugin
-- Added first snippet
 
 ### Todo
 - [on-going]Import more HTML snippets.
@@ -20,7 +28,8 @@ Snippets named as the tag without braces
 
 ```
 
-    !html --> Creates a Basic HTML Snippet
+    !h --> Creates a Basic HTML Snippet
+    !hq --> Creates a HTML Snippet with jQuerry and Font Awesome
 
 ```
 
@@ -44,7 +53,8 @@ If you find a problem or have a suggestion, drop me a message on Discord: `.jann
 >**I am unable to respond to comments on the store page, please use appropriate channels github/discord to reach me. Thank you**
 
 ## License
-MIT License, refer to license file.
+
+Licensed under the [MIT](https://github.com/30jannik06/htmlsnippets/blob/81ffe8cad7e9fdae710eb78846f8229fcf8830d9/LICENSE) License.
 
 # Source
 [Github](https://github.com/30jannik06/htmlsnippets)
