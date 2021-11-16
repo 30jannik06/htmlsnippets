@@ -1,0 +1,18 @@
+{
+    "Php Database Snippet": {
+        "prefix": "!phpdb",
+        "body": [
+            "<?php",
+            "define(\"DB_SERVER\", \" ${1:DB_SERVER}\");",
+            "define(\"DB_USERNAME\", \" ${2:DB_USERNAME}\");",
+            "define(\"DB_PASSWORD\", \" ${3:DB_PASSWORD}\");",
+            "define(\"DB_NAME\", \" ${4:DB_NAME}\");",
+            "$0",
+            "$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);",
+            "$0",
+            "    if($link === false) die(\"Verbindung unterbrochen: \" . mysqli_connect_error())",
+            "?>"
+        ],
+        "description": "Adds a php Database Snippet"
+    }
+}
